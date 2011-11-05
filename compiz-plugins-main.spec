@@ -23,7 +23,7 @@ Group: System/X11
 License: GPLv2+
 URL: http://www.compiz.org/
 
-Source0: http://releases.compiz.org/%{version}/%{srcname}.tar.bz2
+Source0: http://releases.compiz.org/%{version}/%{srcname}
 Patch1:  0001-Use-appropriate-animation-for-screenlets.patch
 Patch2:  0002-Use-a-more-Mandriva-y-blue-for-expo.patch
 
@@ -43,7 +43,7 @@ BuildRequires:  pkgconfig(xtst)
 Requires: compiz
 Obsoletes: compiz-extra
 Obsoletes: beryl-plugins
-%rename: %{oldname}
+%rename %{oldname}
 
 %description
 This is the main plugin set from the Compiz community. This is a 
@@ -57,7 +57,7 @@ scaleaddon snap text thumbnail vpswitch wall winrules workarounds.
 %package devel
 Summary: Development files for Compiz Main Plugin Set for compiz
 Group: Development/X11
-%rename: %{oldname}-devel
+%rename %{oldname}-devel
 
 %description devel
 Development files for Compiz Main Plugin Set for compiz
