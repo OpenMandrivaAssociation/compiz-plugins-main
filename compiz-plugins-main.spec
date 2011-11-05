@@ -57,6 +57,7 @@ scaleaddon snap text thumbnail vpswitch wall winrules workarounds.
 %package devel
 Summary: Development files for Compiz Main Plugin Set for compiz
 Group: Development/X11
+Requires: %{name} = %{version}-%{release}
 %rename %{oldname}-devel
 
 %description devel
