@@ -62,13 +62,14 @@ Development files for Compiz Main Plugin Set for compiz
 %install
 rm -rf %{buildroot}
 %makeinstall_std -C build
-find %{buildroot} -name *.la -exec rm -f {} \;
 
 #----------------------------------------------------------------------------
 %files
-%{_sysconfdir}/gconf/schemas/
+%{_sysconfdir}/gconf/schemas/compiz*.schemas
 %{_libdir}/compiz/*.so
-%{_datadir}/compiz/
+%{_datadir}/compiz/colorfilter/
+%{_datadir}/compiz/mag/
+%{_datadir}/compiz/*.xml
 
 %files devel
 %{_includedir}/compiz/animation/
