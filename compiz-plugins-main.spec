@@ -3,7 +3,7 @@
 
 Summary:         Compiz Main Plugin Set for compiz
 Name:            compiz-plugins-main
-Version:         0.9.5.92
+Version:         0.9.7.2
 Release:         1
 Group:           System/X11
 License:         GPLv2+
