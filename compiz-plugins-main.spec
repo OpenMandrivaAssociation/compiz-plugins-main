@@ -24,6 +24,7 @@ BuildRequires:   pkgconfig(gconf-2.0)
 BuildRequires:   pkgconfig(gl)
 BuildRequires:   pkgconfig(pango)
 BuildRequires:   pkgconfig(xtst)
+BuildRequires:   pkgconfig(pangocairo)
 
 Requires: compiz
 Obsoletes: compiz-extra
