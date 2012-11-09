@@ -1,0 +1,15 @@
+--- compiz-plugins-main-0.9.5.92/expo/expo.xml.in.orig	2011-07-07 05:25:43.000000000 -0600
++++ compiz-plugins-main-0.9.5.92/expo/expo.xml.in	2011-11-04 18:50:47.327189995 -0600
+@@ -218,9 +218,9 @@
+ 			<_short>Ground color(near)</_short>
+ 			<_long>Color of the ground (near).</_long>
+ 			<default>
+-			    <red>0xb333</red>
+-			    <green>0xb333</green>
+-			    <blue>0xb333</blue>
++			    <red>0x1fff</red>
++			    <green>0x4111</green>
++			    <blue>0xe000</blue>
+ 			    <alpha>0xcccc</alpha>
+ 			</default>
+ 		    </option>
