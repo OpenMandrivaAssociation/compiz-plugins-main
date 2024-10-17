@@ -7,7 +7,7 @@ Version:         0.9.7.2
 Release:         1
 Group:           System/X11
 License:         GPLv2+
-URL:             http://www.compiz.org/
+URL:             https://www.compiz.org/
 Source0:         http://releases.compiz.org/%{version}/%{name}-%{version}.tar.bz2
 Patch1:  0001-Use-appropriate-animation-for-screenlets.patch
 Patch2:  0002-Use-a-more-Mandriva-y-blue-for-expo.patch
